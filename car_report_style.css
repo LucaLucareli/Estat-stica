@@ -1,0 +1,44 @@
+/* car_report_style.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.data-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.data-description {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+.data-value {
+    font-size: 14px;
+    color: #333;
+}
