@@ -5,7 +5,6 @@ O código serve para análisar os dados disponível no arquivo 'car_prices.csv'.
 ## Dependências
 - Matplotlib
 - Pandas
-- Seaborn
 - Plotly
 - ydata_profiling
 
