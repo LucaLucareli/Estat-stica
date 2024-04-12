@@ -1,0 +1,106 @@
+* {
+    cursor: url('img/cursor.png'), auto;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    padding: 2vw;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(205deg, #1587DA 12.04%, #51AF39 82.16%);
+    color: #FFF;
+    font-family: Windows;
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+main {
+    width: 90%;
+    height: 90%;
+    gap: 10%;
+    display: flex;
+}
+
+header {
+    justify-self: center;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    background: linear-gradient(90deg, #00154A 0%, #1689DC 100%);
+    box-shadow: 0px -5px 12px 0px rgba(255, 255, 255, 0.25) inset;
+}
+
+iframe {
+    border: 5px solid #040608;
+}
+
+.button {
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    border: 3px solid #040608;
+    background: #C0C0C0;
+    box-shadow: 10px 10px 0px 0px #FFF inset;
+}
+
+.header_components {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    justify-self: left;
+    justify-content: left;
+}
+
+.graphic {
+    color: #040608;
+    gap: 0;
+}
+
+#grey {
+    position: relative;
+    display: flex;
+    width: 70%;
+    height: 100%;
+    padding: 80px 52px;
+    gap: 2.5vw;
+    flex-direction: column;
+    align-items: center;
+    border: 17px solid #040608;
+    background: #C0C0C0;
+    box-shadow: 20px 20px 0px 0px #FFF inset;
+    justify-content: center;
+    justify-self: center;
+}
+
+#buttons {
+    gap: 1.3vw;
+    color: #040608;
+    justify-self: end;
+    justify-content: end;
+}
+
+#content {
+    width: 100%;
+    gap: 2vw;
+}
+
+#futuristic {
+    width: 1200px;
+}
+
+#ad {
+    width: 20%;
+    border: 17px solid #040608;
+    background: #C0C0C0;
+    box-shadow: 20px 20px 0px 0px #FFF inset;
+}
